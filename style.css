@@ -1,0 +1,93 @@
+.headerDiv {
+	text-align: center;
+	/*font-family: "Georgia";*/
+	height: 100px;
+	background-color: white;
+	font-size: 20px;
+}
+
+div, span {
+	width: 495px;
+}
+
+.vertAlign {
+	line-height: 100px;
+}
+
+#secAside {
+	width: 495px;
+	text-align: center;
+}
+
+#secTable {
+	text-align: center;
+	border: 2px solid red;
+	width: 100%;
+}
+
+#section {
+	float: left;
+	background-color: white;
+	/*height: 100px;*/
+	width: 55%;
+	position: relative;
+}
+
+#sectionText {
+	margin-top: 20px;
+	width: 90%;
+}
+
+#aside {
+	float: right;
+	background-color: white;
+	width: 43%;
+	display: table-cell;
+	padding-bottom: 33.25%;
+	padding-top: 4%;
+}
+
+body {
+	background-color: gray;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+#articleDiv {
+	background-color: gray;
+	height: 100%;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+#headingDiv, #paragraphDiv {
+	width: 90%;
+	height: 50%;
+	background-color: white;
+	margin: 10px;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+#articleText {
+	width: 90%;
+	height: 30%;
+	background-color: gray;
+	margin: 10px;
+	color: white;
+}
+
+/*#articleText. #headingDiv, #paragraphDiv {
+	margin: 10px;
+}*/
