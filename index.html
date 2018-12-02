@@ -7,22 +7,28 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<center>
-		<div class="headerDiv"><div class="vertAlign">header</div></div><br>
-		<div class="headerDiv"><div class="vertAlign">navigation</div></div><br>
+	<div class="container">
+		<header class="headerDiv">
+			<p class="vertAlign">header</p>
+		</header>
+		<nav class="headerDiv">
+			<p class="vertAlign">navigation</p>
+		</nav><br>
 		<div class="inline-block">
-			<div id="section">
-				<div id="sectionText">section</div>
+			<section id="section">
+				<p id="sectionText">section</p>
 				<div id="articleDiv" class="group">
-					<div id="articleText">article</div>
-					<div id="headingDiv">h1, h2, h3</div>
-					<div id="paragraphDiv">p</div>
+					<p id="articleText">article</p>
+					<h3 id="headingDiv" class="makeBold">h1, h2, h3</h3>
+					<p id="paragraphDiv">p</p>
 				</div>
-			</div>
-			<div id="aside">aside
-			</div>
+			</section>
+			<aside id="aside">
+				<p>aside</p>
+			</aside>
 		</div><br><br>
-		<div class="headerDiv"><div class="vertAlign">footer</div></div><br>
-	</center>
+		<footer class="vertAlign clearFloat headerDiv">footer</div>
+		</div><br>
+	</div>
 </body>
 </html>
