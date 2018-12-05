@@ -88,3 +88,7 @@ body {
 .clearFloat {
 	clear: both;
 }
+
+h4 {
+	font-weight: lighter;
+}
